@@ -14,6 +14,8 @@ Target machine: Apple silicon, M-series, 32 GB unified memory. Ollama via Metal.
 
 US government works and the public-domain portion of Kearny's 1979 ORNL report can be added locally. Do not commit PDFs, GGUF files, or copyrighted additions. `.gitignore` already blocks them. The MIT license covers this harness only, not the CDC pages and not the manuals.
 
+ORNL-5040 and NWSS-1979 JSONL were added locally.
+
 ## Target machine
 
 Apple silicon, M-series, 32 GB unified memory. Ollama uses Metal unless you force CPU, so do not set `OLLAMA_NUM_GPU=0`.
